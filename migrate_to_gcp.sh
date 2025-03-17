@@ -2,7 +2,7 @@
 
 INSTANCE_NAME="flask-instance"
 ZONE="us-central1-a"
-PROJECT="your-gcp-project-id"
+PROJECT="assignment-3-vcc"
 
 echo "Checking if instance already exists..."
 if gcloud compute instances describe $INSTANCE_NAME --zone $ZONE --project $PROJECT --quiet; then
